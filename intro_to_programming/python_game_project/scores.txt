@@ -1,0 +1,2 @@
+{'user_name': 'Oliver', 'hits': 64, 'points': 164}
+{'user_name': 'BG', 'hits': 34, 'points': 90}
