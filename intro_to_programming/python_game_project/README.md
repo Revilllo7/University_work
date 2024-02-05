@@ -8,9 +8,15 @@ Archery game that utilises the competitiveness of the sport
 and works as a way to see who can get more points in a set amount of time**
 
 
-![Bullseye](/assets/bullseye.png)
+![Bullseye](assets/Bullseye.png)
+<pre>
 
-<details><summary>todo</summary>
+
+
+    
+</pre>
+
+## todo
 - [✅] Make a MENU
 - [✅] Add settings? (only hosts scoreboard)
 - [✅] Add quit button
@@ -26,10 +32,17 @@ and works as a way to see who can get more points in a set amount of time**
     - [❌] background
 - - [abandoned] X and Y axis shot (shot predictor exists, however it's baaad...)
 - - [abandoned] hit animations?
-</details>:
+  
+<pre>
 
 
-<details><summary>Captain log: a list of all the things implemented</summary>
+
+
+    
+</pre>
+
+
+## Captain log: a list of all the things implemented
 1. created a repo, made a run.py file, got the pygame lib
 2. created a menu that changes displays between: "start game", "settings", "quit"
 3. created buttons file that is responsible for: initialising buttons, updating buttons, detecting inputs, changing color on hover for visual clarity.
@@ -57,50 +70,70 @@ and works as a way to see who can get more points in a set amount of time**
 25. Added the player_test file with all the tests used while making the game, however running them in that file will cause errors, cause
 they are being used out of context
 26. Adding logos, fixing up the README. tidying up
-</details>
+<pre>
+
+
+
+
+    
+</pre>
 
 
 
 ### KRYTERIA oceny
 1 . podział projektu na pliki (2pkt)
-✅ – mam podział na 7 plików, które importują z siebie dane i przesyłają sobie funkcje
+- ✅ – mam podział na 7 plików, które importują z siebie dane i przesyłają sobie funkcje
 
 2.  własne funkcje + testy 5 pkt (po 1 pkt za funkcję i test do niej)
-✅ – mnóstwo własnych funkcji, player_tests.py
+- ✅ – mnóstwo własnych funkcji, player_tests.py zawiera testy do funkcji
 
 3 użycie list, krotek, słowników (1,5 pkt)
-✅ lista – points w player.py
-✅ krotka – points w player.py / player_data w scoring.py
-✅ słownik – player_data w scoring.py
+- ✅ lista – points w player.py
+- ✅ krotka – points w player.py / player_data w scoring.py
+- ✅ słownik – player_data w scoring.py
+  
 Wszystkie są potem wykorzystywane w innej części pliku:
 lista do rysowania paraboli
 krotka i słownik są odczytywane dla scoreboarda
 
 
 4. lista  najwyżej punktowanych odbytych gier (wraz z imieniem/nazwą gracza).(1pkt)
-✅ – scores.txt
+- ✅ – scores.txt
 
-5 odczyt i zapis do pliku (1 pkt)
-✅ – Scoring.py zapisuje do pliku, scoreboard odczytuje
+5. odczyt i zapis do pliku (1 pkt)
+- ✅ – Scoring.py zapisuje do pliku, scoreboard odczytuje
 
 6. algorytm  (np sortowanie) (2 pkt)
-✅ – scoreboard utylizuje sortowanie bąbelkowe do sortowania wyników graczy
+- ✅ – scoreboard utylizuje sortowanie bąbelkowe do sortowania wyników graczy
 
 7. kompletność rozwiązania (2,5 pkt)
-Całość jest grywalna
+- ✅ – całość jest grywalna i nie wymaga zamykania programu lub wpisywania informacji do konsoli
 
 8. akademicki poziom (5 pkt)
-Pygame.
+- Użycie biblioteki Pygame
+- Użycie os, subsystem, sys
+- Zmienne systemowe
+- Time
+- Menu
+<pre>
 
 
 
-| Ocena | Max punkty |
-| :----: | :----: |
-| podział na pliki:   |    2    |
-| własne funkcje + testy:        |   5     |
-| użycie list, krotek, słowników:    |  1,5 |
-| scoreboard:   |  1 |
-| odczyt i zapis plików:  |  1  |
-| algorytm (sortowanie):  |  2  |
-| kompletność rozwiązania:   |   2,5 |
-|akademicki poziom:  |   5  |
+    
+</pre>
+
+
+| Ocena | Max punkty | Wynik |
+| :----: | :----: | :----: |
+| podział na pliki:   |    2    | 2 |
+| własne funkcje + testy:        |   5     | 5 |
+| użycie list, krotek, słowników:    |  1,5 | 1,5 |
+| scoreboard:   |  1 | 1 |
+| odczyt i zapis plików:  |  1  | 1 |
+| algorytm (sortowanie):  |  2  | 2 |
+| kompletność rozwiązania:   |   2,5 | 2,5 |
+|akademicki poziom:  |   5  | 5 |
+
+Projekt uzyskał max. ilość punktów i uzyskał ocenę 100%
+
+Project earned the max amount of points and scored me a 100% for the grade
