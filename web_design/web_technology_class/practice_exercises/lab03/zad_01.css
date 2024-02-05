@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+}
+
+
+.box-1 {
+    border: 10px solid rgb(255, 255, 255);
+}
+
+.box-2 {
+    border: 2px solid rgb(0, 0, 0)
+}
+
+.box-3 {
+    border: 10px solid lightgrey;
+}
+
+.box-4 {
+    border: 10px solid white;
+}
+
+
+.box {
+    background-color: lightgrey;
+    border: 2px solid rgb(0, 0, 0);
+    width: 25%;
+    padding: 0.5em;
+    margin: 1em;
+    line-height: 2em;
+    font-weight: bold;
+}
+
+.box-content {
+    background-color: lightgrey;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: justify;
+    /* margin: 1em; */
+    padding: 1em;
+    width: auto;
+}

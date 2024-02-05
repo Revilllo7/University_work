@@ -1,0 +1,26 @@
+.A {
+    color: red;
+    position: relative;
+    top: 5px;
+    display: inline;
+    letter-spacing:0.5em;
+    // background-color: yellow;
+
+}
+
+.B {
+    color: green;
+    position: relative;
+    bottom: 5px;
+    display:inline;
+}
+
+.C {
+    background-color: yellow;
+    display: block;
+    width: fit-content;
+    // bottom: 20%;
+    margin: 1em 1em 1em 1em;
+    padding: 2em 2em 3em 2em;
+    border: 5px solid red;
+}

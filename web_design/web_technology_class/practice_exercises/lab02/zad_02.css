@@ -1,0 +1,18 @@
+.first {
+    color: red;
+    list-style-type: decimal;
+}
+
+.second {
+    color: green;
+    font-weight: bold;
+    list-style-type:lower-alpha;
+}
+
+.third {
+    color: blue;
+    font-weight: normal;
+}
+/* Nie wiem jak to zrobić bez klas */
+/* ul > li nie działało, .elem też  */
+/* byle, że wygląda, bo nie wiem co dalej */

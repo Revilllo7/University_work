@@ -1,0 +1,269 @@
+@import "_variables.scss";
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: $font;
+    color: $black-diff;
+    background-color: $body-bg-color;
+
+}
+
+nav {
+    // width: 1280px;
+    background-color: $body-bg-color;
+    padding-top: 0.5rem;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    > .items {
+        display: flex;
+        margin: auto;
+        > .logo {
+            > img {
+                width: 140px;
+                height: 35px;
+            }
+        }
+    }
+    > .items2 {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+        margin: auto;
+        align-items: center;
+        
+        > .components:hover {
+            background-color: $hover-button-bg;
+        }
+        > .blocks:hover {
+            background-color: $hover-button-bg;
+        }
+        > .designer:hover {
+            background-color: $hover-button-bg;
+        }
+        > .templates:hover {
+            background-color: $hover-button-bg;
+        }
+
+        > .icons {
+            display: flex;
+            gap: 1rem;
+            padding: 0.5rem;
+            border-radius: 1rem;
+            > .fa-brands {
+                background-color: $tile-button-border;
+                padding: 0.25rem;
+                border-radius: 0.2rem;
+            &.fa-brands:hover {
+                background-color: $body-bg-color;
+            }
+            }
+            > .fa-regular {
+                background-color: $tile-button-border;
+                padding: 0.25rem;
+                border-radius: 0.2rem;
+                
+            &.fa-regular:hover {
+                background-color: $body-bg-color;
+            }
+            }
+        
+        }
+        
+    }  
+}
+
+.main {
+    height: 90vh;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    > .stripe {
+        position: absolute;
+        top: 52%;
+        width: 100vw;
+        height: 5rem;
+        background-color: $hover;
+        z-index: -5;
+    }
+    > .content {
+        display: flex;
+        gap: 1rem;
+         > .column1 {
+            position:relative;
+            top: 5rem;
+            display: grid;
+            grid-template-columns: repeat(1, 10rem);
+            grid-template-rows: repeat(2, 10rem);
+            gap: 2rem;
+            > .templates2 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                width: 10rem;
+                height: 10rem;
+                background-color: $hover-button-bg;
+                border-radius: 1rem;
+                border: 1px solid $tile-button-border;
+                > .sub {
+                    color: $desc-color;
+                }
+                &.templates2:hover {
+                    border: 1px solid $hover-tile-bg-and-button-bg;
+                }
+            }
+            > .theme {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                width: 10rem;
+                height: 10rem;
+                background-color: $hover-button-bg;
+                border-radius: 1rem;
+                border: 1px solid $tile-button-border;
+                > .sub {
+                    color: $desc-color;
+                }
+            &.theme:hover {
+                border: 1px solid $hover-tile-bg-and-button-bg;
+            }
+            }
+         }
+         > .column2 {
+            display: grid;
+            grid-template-columns: repeat(1, 10rem);
+            grid-template-rows: repeat(3, 10rem);
+            gap: 2rem;
+            > .open {
+                display: flex;
+                background-color: $hover-button-bg;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                width: 10rem;
+                height: 10rem;
+                background-color: $hover-button-bg;
+                border-radius: 1rem;
+                border: 1px solid $tile-button-border;
+                                    > .sub {
+                        color: $desc-color;
+                &.open:hover {
+                    border: 1px solid $hover-tile-bg-and-button-bg;
+
+                    }
+                }
+            }
+            > .gen {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                width: 10rem;
+                height: 10rem;
+                background-color: $hover-button-bg;
+                border-radius: 1rem;
+                border: 1px solid $tile-button-border;
+                > .sub {
+                    color: $desc-color;
+                }
+                &.gen:hover {
+                    border: 1px solid $hover-tile-bg-and-button-bg;
+                }
+            }
+            > .css {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                width: 10rem;
+                height: 10rem;
+                background-color: $hover-button-bg;
+                border-radius: 1rem;
+                border: 1px solid $tile-button-border;
+                > .sub {
+                    color: $desc-color;
+                }
+                &.css:hover {
+                    border: 1px solid $hover-tile-bg-and-button-bg;
+                }
+            }
+         }
+         > .column3 {
+            display: grid;
+            position: relative;
+            top: 5rem;
+            grid-template-columns: repeat(1, 10rem);
+            grid-template-rows: repeat(2, 10rem);
+            gap: 2rem;
+            > .prime {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                width: 10rem;
+                height: 10rem;
+                background-color: $hover-button-bg;
+                border-radius: 1rem;
+                border: 1px solid $tile-button-border;
+                > .sub {
+                    color: $desc-color;
+                }
+                &.prime:hover {
+                    border: 1px solid $hover-tile-bg-and-button-bg;
+                }
+            }
+            > .icon {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                width: 10rem;
+                height: 10rem;
+                background-color: $hover-button-bg;
+                border-radius: 1rem;
+                border: 1px solid $tile-button-border;
+                > .sub {
+                    color: $desc-color;
+                }
+                &.icons:hover {
+                    border: 1px solid $hover-tile-bg-and-button-bg;
+                }
+            }
+        
+         }
+    }
+}
+
+.buttons {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10%;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+
+    > .started {
+        background-color: $hover-tile-bg-and-button-bg;
+        padding: 0.5rem;
+        color: white;
+        border-radius: 1rem;
+        width: 7rem;
+        text-align: center;
+    }
+
+    > .npm {
+        border: 1px solid $hover-tile-bg-and-button-bg;
+        padding: 0.5rem;
+        border-radius: 1rem;
+    }
+}

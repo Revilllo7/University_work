@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(5, 10rem);
+    grid-template-rows: repeat(5, 10rem);
+    // grid-gap: 3px;
+    width: fit-content;
+    border: 3px solid black;
+
+}
+
+.color-plane {
+    font-size: 2rem;
+    color: white;
+    border: 3px solid black;
+    &.color-plane:nth-of-type(odd) {
+        background-color: rgb(243, 225, 173);
+    }
+
+    &.color-plane:nth-of-type(even) {
+        background-color: burlywood;
+    }
+}

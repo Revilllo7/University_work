@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #F5F5F5;
+    display: inline;
+    font-size: 1.5em;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px #b9b9b9;;
+    // overflow: auto;
+    // section overflows into nav-item
+    z-index: 1;
+}
+
+
+.section {
+    width: 50em;
+    margin: 4em auto;
+}
+
+.info {
+    margin: auto;
+    position: fixed;
+    display: inline;
+    padding: 1em;
+    width: 8.5em;
+    right: 1em;
+    bottom: 5%;
+    background-color: #FAFAD2;
+    border-radius: 10%;
+    box-shadow: 2px 2px 10px #b9b9b9;
+}
+
+.event {
+    background-color: white;
+    display: block;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+h2 {
+    position: relative;
+    left: 0.75em;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.date {
+    display: block;
+    position: relative;
+    left: 39em;
+    bottom: 1em;
+}
+
+.organizer {
+    display: block;
+    position: relative;
+    bottom: 1em;
+}
+
+.description {
+    display: block;
+    position: relative;
+    bottom: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.primary {
+    display: inline-block;
+    background-color: #0365CC;
+    padding: 0.5em 0.25em 0.5em 0.25em;
+    width: 5em;
+    border: 1px solid #0365CC;
+    border-radius: 10px;
+    color: white;
+}
+
+.primary:hover {
+    background-color: #043161;
+    border: 1px solid black;
+}
+
+.secondary {
+    display: inline-block;
+    position: relative;
+    left: 45em;
+    background-color: #ffffff;
+    padding: 0.5em 0.25em 0.5em 0.25em;
+    width: 5em;
+    border: 1px solid #0365CC;
+    border-radius: 10px;
+    color: #0365CC;
+}
+
+.secondary:hover {
+    background-color: #0365CC;
+    color: white;
+    border: 1px solid black;
+}
+
+.section:nth-child(2) > .events > .event > .secondary{
+    left: 0em;
+}

@@ -1,0 +1,66 @@
+body { 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: #ececec;
+  }
+  
+  .content {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    color: #045137;
+    font-size: 4em;
+    text-align: center;
+  }
+  
+  .contact {
+    box-shadow: 0px 0px 10px #a5a5a5;
+    margin: 2em auto;
+    padding: 0em 0em 2em;
+    font-size: 1em;
+    width: 80%;
+    display: block;
+  }
+  
+  .name {
+    background-color: #045137;
+    display: block;
+    margin: right;
+    padding: 10px;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  
+  .address > span {
+    color: #045137;
+    text-align: right;
+    display: block;
+    padding: 0.5em 0.75em 0em 0em;
+    margin: 0em 0em 0.1em 0em;
+  }
+  
+  .address > span:nth-of-type(2) {
+    color: black;
+    font-size: 14px;;
+    display: block;
+    padding: 0em;
+    margin: 0em 1em 0em 0em;
+  }
+
+  .mail {
+    color:#045137;
+    display: block;
+    text-align: left;
+    margin: 2em 0em 0em 1.3333em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.75em;
+  }
+
+  .phone {
+    display: block;
+    text-align: left;
+    margin: 0.2em 0em 0em 1em;
+  }

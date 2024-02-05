@@ -1,0 +1,42 @@
+$i: 1;
+$colors: violet, wheat, whitesmoke, yellow, yellowgreen, turquoise, tomato, thistle, teal, tan;
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    display: flex;
+    border: 10px solid grey;
+    height: 100vh;
+    justify-content: flex-end;
+    flex-direction: column;
+    box-sizing: border-box;
+
+}
+
+
+.box {
+    @each $color in $colors {
+        &.box-#{$i} {
+            background-color: $color;
+        }
+        $i: $i + 1;
+        
+    }
+    &:nth-of-type(3) {
+        order: -1;
+    }
+    &:nth-of-type(2) {
+        order: 1;
+    }
+    &:nth-of-type(7) {
+        order: 2;
+    }
+
+}

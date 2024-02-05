@@ -1,0 +1,108 @@
+body {
+    background-color: #f9f8f8;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1 {
+    color: green;
+}
+
+h2 {
+    color: orangered;
+}
+
+
+.container > p {
+    font-weight: 500;
+}
+
+.strong {
+    font-weight: 900;
+}
+
+
+
+
+/* WALL */
+.wall {
+    text-align: center;
+    font-weight: 500;
+}
+
+.wall > h1 {
+    color: #dddd03;
+    text-shadow: 2px 3px 1px #640000;
+    
+}
+
+.wall > p > a {
+    color: brown;
+    text-decoration: none;
+}
+/*  */
+
+
+
+
+/* SECTION */
+.section {
+    background-color: #eee;
+}
+
+.section > h3 > a {
+    color: brown;
+    text-decoration: underline;
+}
+
+.section > p {
+    font-weight: 500;
+}
+
+.section .box {
+    background-color: #ffffff;
+}
+
+.section .box a {
+    font-weight:500;
+    text-decoration: none;
+}
+
+.section .box .header {
+    color: dimgray;
+    font-weight: 500;
+}
+/*  */
+
+
+
+/* BOX COLORS */
+.box-color {
+    font-size: 2em;
+    color: #eee;
+    line-height: 2em;
+}
+
+.box-color .item-1 {
+    background-color: lightgrey;
+}
+
+.box-color .item-2 {
+    background-color: lightgreen;
+}
+
+.box-color .item-3 {
+    background-color: lightpink;
+}
+
+.box-color .item-4 {
+    background-color: lightsalmon;
+}
+
+.box-color .item-5 {
+    background-color: lightseagreen;
+}
+
+.box-color .item-6 {
+    background-color: lightskyblue;
+}
+/*  */

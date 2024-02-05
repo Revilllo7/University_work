@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    letter-spacing: 0.8px;
+    background-color: #464646;
+  }
+  
+  main { // Szerokość głównej zawartości strony - zdjęć i opisu
+    width: 1100px;
+    padding-top: 100px;
+    margin: 0 auto;
+    position: relative;
+    overflow-x: clip;
+    overflow-y: visible;
+  }
+  main img {
+    border: 20px solid #2f2f2f;
+    width: 300px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+  }
+  main section {
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -15%);
+  }
+  main section h1 {
+    text-align: center;
+    letter-spacing: 20px;
+    color: white;
+    line-height: 2;
+    font-weight: normal;
+    font-size: 2em;
+    padding: 10px;
+  }
+  main section img {
+    width: 400px;
+    display: inline-block;
+    position: static;
+  }
+  main section p {
+    position: absolute;
+    top: 6em;
+    line-height: 2.3;
+    display: inline-block;
+    padding: 20px;
+    padding-top: 0px;
+    color: gray;
+    font-size: 0.8em;
+    max-width: 200px;
+  }
+  main section p span {
+    color: white;
+    font-size: 1.1em;
+  }
+  
+  nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #2F2F2F;
+    height: 2.5em;
+    text-align: right;
+    color: grey;
+  }
+  nav span:not(span[id=l]) {
+    line-height: 50px;
+    font-size: 0.8em;
+    padding: 0 20px;
+  }
+  nav span:not(span[id=l]):first-of-type {
+    color: white;
+  }
+
+  .pages {
+    display: block;
+    position: static;
+    right: 100em;
+  }
+  
+  .title {
+    display: block;
+    width: auto;;
+    position: relative;
+    margin: 1em
+  }
+
+  #logo {
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    padding: 10px 15px;
+  }
+  #logo #l {
+    color: orangered;
+  }
+  #logo #podtytul {
+    color: grey;
+    font-size: 0.6em;
+  }
+
+  .subtitle {
+    color: gray;
+    font-weight: bold;
+    display: block;
+    position: relative;
+    font-size: 0.75em;
+    top: -2.5em;
+    left: 4.15em;
+
+  }
+
+  .pages {
+    color: gray;
+    display: inline-block;
+    position: relative;
+    right: 0em;
+  }
+
+  .page {
+    color: white;
+    position: relative;
+    left: 70em;
+    top: -5em;
+  }
+
+  .slash:nth-of-type(1) {
+    color: white;
+    position: relative;
+    left: 80.5em;
+    top: -6.4em;
+  }

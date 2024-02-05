@@ -1,0 +1,15 @@
+div:first-of-type {
+    color: blue;
+}
+
+div:last-of-type {
+    color: green;
+}
+
+div:nth-child(odd) {
+    font-weight: bold;
+}
+
+div:hover {
+    font-size: 1.5em;
+}

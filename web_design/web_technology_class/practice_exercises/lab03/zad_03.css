@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ECECEC;
+}
+
+
+header {
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: #E7E2DA;
+    box-shadow: 1px 5px 3px #CCCCCC;
+    margin: 0 0 1em 0;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    /* font-weight: bold; */
+}
+
+.section {
+    width: 70%;
+    background-color: #F6F3F3;
+    margin: 0 auto;
+    box-shadow: 1px 5px 3px #CCCCCC;
+}
+.section:nth-child(2) {
+    margin: 2em auto;
+}
+
+legend {
+    font-size: 2em;
+    color: #87837D;
+    padding: 0 1em 0 1em;
+    letter-spacing: 0.3;
+
+}
+
+fieldset {
+    background-color: #F6F3F3;
+    text-align: left;
+    border: 1px solid burlywood;
+    padding: 2em 2em 2em 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    border: 1em solid #F6F3F3;
+    padding: 0.5em 2em 1em 2em;
+}
+
+label {
+    margin-left: 2em;
+    padding-right: 2em;
+    display: contents;
+}
+
+.form-group {
+    /* padding-left: 5em; */
+    font-size: 1.2em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin: 20px 20% 20px auto;
+}
+
+.input {
+    border: 1px solid lightgrey;
+    padding: 0.5em;
+    width: 20em;
+}
+
+& button {
+    float: right;
+    color: white;
+    background-color: #c2bcb4;
+    border: none;
+    text-transform: uppercase;
+    padding: 0.2em 0.2em 0.2em 0.2em;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    display: block;
+}
+
+table {
+    padding: 1em 1em 1em 1em;
+}
+
+tr:first-of-type > th {
+    background-color: #E7E2DA;
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0.2em 0.2em 0.2em 0.2em;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #F0ECE9;
+}
+
+tr:not(:first-of-type) {
+    text-align: justify;
+    padding: 1em 1em 1em 1em;
+}
+
+td {
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+

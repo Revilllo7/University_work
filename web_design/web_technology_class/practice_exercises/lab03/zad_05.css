@@ -1,0 +1,21 @@
+.content > div:last-child > div:last-child > div:last-child {
+    text-decoration: underline;
+}
+
+.content > div:nth-child(2) > div:nth-child(1) {
+    color: blue;
+    letter-spacing: 0.25em;
+    font-weight: bold;
+}
+
+.content > div:nth-child(2) {
+    color: blue;
+}
+
+.content > div:nth-child(2) > div:nth-child(2) > div:first-child {
+    color: red;
+    text-transform: uppercase;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    font-size: 1em;
+}

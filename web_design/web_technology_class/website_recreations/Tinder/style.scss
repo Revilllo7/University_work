@@ -1,0 +1,136 @@
+@import "_variables.scss";
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: $white;
+    background-color: $background;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    > .items {
+        display: flex;
+        width: fit-content;
+        gap: 2rem;
+        font-size: 1.5rem;
+        align-items: center;
+        > .name {
+            font-size: 3rem;
+        }
+        
+    }
+    > .items2 {
+        display: flex;
+        width: fit-content;
+        gap: 2rem;
+        font-size: 1.5rem;
+        align-items: center;
+        > .login {
+            color: $dark;
+            background-color: $white;
+            border-radius:  1.5625rem;
+            padding: 0.5rem;
+            width: 7rem;
+            text-align: center;
+        }
+    }
+}
+
+.main {
+    height: 75rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    > .swipe {
+        font-size: 8rem;
+        margin-bottom: 2rem;
+    }
+    > .button {
+        display: flex;
+        background-color: $red;
+        width: 20rem;
+        height: 4rem;
+        border-radius: 3rem;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+}
+
+.footer {
+    display: grid;
+    height: 40rem;
+    background-color: $dark;
+    grid-template-columns: repeat(3, 30rem);
+    grid-template-rows: repeat(1, 20rem);
+    gap: 2rem;
+    justify-content: center;
+    align-items:flex-start;
+    padding-top: 3rem;
+    > .quote {
+        border: 1px solid $light;
+        width: fit-content;
+        height: 20rem;
+        > .name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0.8rem;
+            padding-bottom: 0.25rem;
+            margin-top: 1.2rem;
+            border-bottom: 1px solid $light;
+        }
+        > .text {
+            font-weight: normal;
+            padding: 1rem;
+        }
+    }
+    .content {
+        display: flex;
+        gap: 10rem;
+        > .legal {
+            font-weight: bold;
+            font-size: 2rem;
+            > p {
+                font-weight: normal;
+                font-size: 1rem;
+            }
+        }
+        > .careers {
+            font-weight: bold;
+            font-size: 2rem;
+            > p {
+                font-weight: normal;
+                font-size: 1rem;
+            }
+        }
+        > .social {
+            font-weight: bold;
+            font-size: 2rem;
+            > p {
+                font-weight: normal;
+                font-size: 1rem;
+            }
+        }
+        > .faq {
+            font-weight: bold;
+            font-size: 2rem;
+            > p {
+                font-weight: normal;
+                font-size: 1rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+$colors: lightgrey, grey, darkgrey;
+$i: 1;
+
+body {
+    margin: 0;
+    padding: 0;
+}
+#outer {
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 5rem;
+    height: 5rem;
+    padding: 0.5rem;
+    @each $color in $colors {
+        &.box:nth-of-type(#{$i}) {
+            background-color: $color;
+        }
+        $i: $i + 1;
+    }
+
+    &.box:nth-of-type(1) {
+        align-self: flex-start;
+    }
+
+    &.box:nth-of-type(3) {
+        align-self: flex-end;
+    }
+}

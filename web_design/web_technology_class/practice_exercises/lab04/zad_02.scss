@@ -1,0 +1,29 @@
+div {
+    display: inline;
+    width: 10em;
+    min-width: fit-content;
+    height: 5em;
+    min-height: fit-content;
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+}
+
+.A {
+    background-color: rgba(68, 68, 175, 0.181);
+    border: 3px solid darkblue;
+    bottom: 2em;
+    right: 5em;
+}
+
+.B {
+    background-color: rgba(68, 68, 175, 0.181);
+    border: 3px solid rgba(220, 16, 16, 0.536);
+    top: 2em;
+    left: 5em;
+}
