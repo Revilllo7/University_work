@@ -1,0 +1,69 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    position: sticky;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-shadow: 1px 1px 1px wheat;
+    padding-bottom: 1rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    margin-bottom: 2rem;
+    z-index: 10;
+    > .items {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 2rem;
+        > .logo {
+            width: 3rem;
+            height: 3rem;
+            background-color: red;
+        }
+    }
+    > .items2 {
+        display: flex;
+        justify-content: space-around;
+        gap: 1rem;
+        > .set {
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+            padding-right: 1rem;
+            > .login {
+                border-right: 3px solid red;
+                height: fit-content;
+                padding-right: 1rem;
+            }
+        }
+        > .country {
+            width: 2rem;
+            height: 1rem;
+            background-color: red;
+        }
+    }
+}
+
+main {
+
+    > section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        > .ad {
+            width: 100%;
+            height: 20rem;
+            background-color: red;
+        }
+    }
+}
